@@ -1,0 +1,17 @@
+.clock {
+    &-container {
+        margin: 0px 25px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(4, 70px);
+        column-gap: 15px;
+
+        @media (min-width: 768px) {
+            padding-top: 100px;
+            padding-bottom: 150px;
+            grid-template-columns: repeat(4, 100px);
+            column-gap: 30px;
+        }
+    }
+}
